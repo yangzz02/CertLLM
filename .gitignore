@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environment
+venv/
+
+# Environment
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# Data (large files, not tracked)
+data/
+
+# Ground-Truth (keep only ground truth CSVs)
+Ground-Truth/
+
+# CRL cache
+crl_cache/
+
+# Checkpoints
+checkpoints/
+
+# Output (all excluded)
+output/
+
+# Experiments (all excluded)
+experiments/
+
+# Scripts (all excluded)
+scripts/
+
+# Utils (only keep what src uses)
+utils/fofa
+utils/llm_analyzer.py
+utils/san_scanner.py
+utils/simhash_cluster.py
+utils/entropy_calculator.py
+utils/sni_retry.py
+utils/utils.md
+
+
+# Legacy directories
+test/
+example/
+
+
+# OS
+.DS_Store
+Thumbs.db
